@@ -136,3 +136,15 @@ nums = [1,1,2,2,3]
 
 - Unique portion of array = `[1,2,3]`
 - Return value = `3`
+
+## TIME AND SPACE
+
+- ### TIME    → *O*(*n*)
+
+We scan the array once (j goes from 1 to n-1).
+Each comparison/swapping is O(1).
+
+- ### SPACE → *O*(1)
+
+We only use a few variables (i, j).
+No extra data structures.
